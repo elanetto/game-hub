@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Barlow', sans-serif;
+}
+
+.product-card {
+    width: 200px;
+    height: 368px;
+    border-radius: 6px;
+    background-color: #FFF;
+    filter: drop-shadow(5px 5px 15px black);
+}
+
+.game-img img {
+    width: 200px;
+    height: 256px;
+    object-fit: cover;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    z-index: 10;
+    position: absolute;
+}
+
+/* Didrik hjelper en annen gang: 
+
+Vil legge hexagon med ign score over bildet, men når jeg
+setter bildet til position absolute, så forsvinner hexagon bak bildet,
+selv om jeg har satt hexagon til å ha høyere z-index enn bildet.
+
+*/
+
+.ign-score {
+    width: 40px;
+    z-index: 20;
+    margin-top: 1;
+    color: white;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+}
+
+.ign-logo {
+    width: 20px;
+}
+
+.inside-hexagon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 30;
+    position: absolute;
+}
+
+/* GAME DETAILS */
+
+.game-details {
+    margin-top: 260px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.game-title {
+    color: #0F172A;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.game-category {
+    color: #8B8B8B;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.game-prize {
+    color: #0F172A;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.buy-now-btn {
+    background-color: #FD5A27;
+    color: #FFF;
+    border: none;
+    border-radius: 6px;
+    height: 28px;
+    width: 101px;
+}
+
+.price-and-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+/* Small (sm) */
+@media (min-width: 640px) {
+
+
+}
+
+/* Medium */
+@media (min-width: 768px) {
+
+}
+
+/* Large */
+@media (min-width: 1024px) {
+
+}
+
+
+/*Extra Large XL */
+@media (min-width: 1280px) {
+
+}
+
+/* EXTRA Extra Large - XXL */
+@media (min-width: 1536px) {
+
+}
