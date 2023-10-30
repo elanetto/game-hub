@@ -1,0 +1,35 @@
+
+:root {
+    --dark: #1B213C;
+    --dark-gray: #485668;
+    --yellow: #FECF2F;
+}
+
+main {
+    width: 1300px;
+
+}
+
+.latest-games-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pre-loved-games-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 36px;
+    color: var(--dark);
+}
+
+p {
+    font-family: 'Barlow', sans-serif;
+    color: var(--dark);
+    font-size: 20px;
+}
