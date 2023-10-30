@@ -1,23 +1,24 @@
 * {
     box-sizing: border-box;
-}
-
-body {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Barlow', sans-serif;
     margin: 0;
     padding: 0;
 }
 
+body {
+    min-height: 100vh;
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .product-card {
     width: 200px;
-    height: 368px;
+    height: 380px;
     border-radius: 6px;
     background-color: #FFF;
     filter: drop-shadow(1px 1px 5px #485668);
+    position: relative;
 }
 
 .product-card:hover {
@@ -34,14 +35,6 @@ body {
     position: absolute;
 }
 
-/* Didrik hjelper en annen gang: 
-
-Vil legge hexagon med ign score over bildet, men når jeg
-setter bildet til position absolute, så forsvinner hexagon bak bildet,
-selv om jeg har satt hexagon til å ha høyere z-index enn bildet.
-
-*/
-
 .ign-score {
     width: 40px;
     z-index: 50;
@@ -53,8 +46,8 @@ selv om jeg har satt hexagon til å ha høyere z-index enn bildet.
     flex-direction: column;
     font-family: 'Inter', sans-serif;
     position: absolute;
-    top: -5px;
-    left: -30px;
+    top: 11px;
+    left: 10px;
 }
 
 .ign-logo {
@@ -72,10 +65,9 @@ selv om jeg har satt hexagon til å ha høyere z-index enn bildet.
 
 .game-details {
     margin-top: 260px;
-    padding: 0.5rem 1rem;
+    padding: 0.2rem 0.7rem;
     display: flex;
     flex-direction: column;
-    gap: 0.4rem;
 }
 
 .game-title {
@@ -125,15 +117,26 @@ selv om jeg har satt hexagon til å ha høyere z-index enn bildet.
     color: #FFF;
 }
 
+/* THE DIFFERENT CARDS: */
+
+/* pre-loved: */
 .price-and-btn {
     display: flex;
     justify-content: space-between;
 }
 
+/* Latest release: */
+.price-and-btn-latest-release {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+
 .heart {
     color: #BBC5CF;
     position: relative;
-    top: -90px;
+    top: -100px;
     left: 170px;
     cursor: pointer;
 }
@@ -146,7 +149,43 @@ selv om jeg har satt hexagon til å ha høyere z-index enn bildet.
     color: #FD5A27;
 }
 
+/* PRE-LOVED GAME CARD */
 
+.old-price {
+    color: #485668;
+    font-size: 14px;
+    text-decoration: line-through;
+    position: relative;
+}
+
+.title-category-old-price-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.game-sales-prize {
+    color: #FD5A27;
+    font-size: 24px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+
+.game-category-tag {
+    z-index: 50;
+    position: absolute;
+    background-color: #FECF2F;
+    color: #1B213C;
+    font-weight: 600;
+    height: 25px;
+    width: 109px;
+    top: 227px;
+    text-align: center;
+    margin-left: 91px;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
