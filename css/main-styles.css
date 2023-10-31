@@ -170,6 +170,7 @@ main {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -50px;
 }
 
 .main-content {
@@ -264,6 +265,9 @@ p {
 
 /* Small (sm) */
 @media (min-width: 640px) {
+    main {
+        margin-top: 5px;
+    }
 
 
 }
@@ -467,6 +471,7 @@ p {
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 0px;
     }
 
 
