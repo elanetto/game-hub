@@ -10,6 +10,123 @@ main {
 
 }
 
+/* HEADER */
+
+.desktop-dark-line {
+    display: none;
+}
+
+.desktop-nav {
+    display: none;
+}
+
+.right-header-desktop {
+    display: none;
+}
+
+/* LEFT HEADER */
+.yellow-header {
+    background-color: var(--yellow);
+    width: 100vw;
+    height: 111px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo img {
+    height: 95px;
+    width: 152px;
+    margin: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.hover-logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.header-logo:hover .hover-logo {
+    opacity: 1;
+}
+
+/* RIGHT HEADER */
+
+.right-header-mobile {
+    font-size: 2rem;
+    color: var(--dark);
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    gap: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark);
+}
+
+.dark-header-line {
+    background-color: var(--dark);
+    width: 100vw;
+    height: 1rem;
+}
+
+/* DROPTOWN MENU */
+
+.dropbtn {
+    background-color: var(--yellow);
+    color: var(--dark);
+    padding: 16px;
+    font-size: 2rem;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--yellow);
+    min-width: 200px;
+    filter: drop-shadow(5px 5px 8px #485668);
+    z-index: 80;
+    font-size: 1.2rem;
+    right: -83px;
+  }
+
+  ul li {
+      list-style: none;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 0.7rem 1rem;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+      background-color: var(--dark);
+      color: white;
+    }
+  
+  .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  
+
+
+/* MAIN */
+
 .latest-games-section {
     display: flex;
     flex-wrap: wrap;
@@ -32,4 +149,92 @@ p {
     font-family: 'Barlow', sans-serif;
     color: var(--dark);
     font-size: 20px;
+}
+
+.game-section-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+
+
+}
+
+/* Medium */
+@media (min-width: 768px) {
+
+}
+
+/* Large - DESKTOP */
+@media (min-width: 1024px) {
+
+    /* HEADER */
+
+    .right-header-mobile {
+        display: none;
+    }
+
+    .desktop-dark-line {
+        display: block;
+        width: 100vw;
+        height: 1rem;
+        background-color: var(--dark);
+    }
+    
+    .desktop-nav {
+        display: block;
+    }
+
+    .desktop-links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    
+    .dark-header-line {
+        background-color: var(--dark);
+        width: 100vw;
+        height: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav ul li a {
+        color: #FFF;
+        padding-top: 0.5rem;
+    }
+
+    .right-header-desktop {
+        display: block;
+        display: flex;
+        gap: 2rem;
+    }
+
+    .desktop-icons {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .yellow-header {
+        background-color: var(--yellow);
+        width: 100vw;
+        height: 111px;
+        display: flex;
+    }
+
+}
+
+
+/*Extra Large XL */
+@media (min-width: 1280px) {
+
+}
+
+/* EXTRA Extra Large - XXL */
+@media (min-width: 1536px) {
+
 }

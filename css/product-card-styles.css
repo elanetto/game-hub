@@ -8,9 +8,8 @@ body {
     min-height: 100vh;
     font-family: 'Barlow', sans-serif;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
+
 
 .product-card {
     width: 200px;
@@ -119,7 +118,7 @@ body {
 
 /* THE DIFFERENT CARDS: */
 
-/* pre-loved: */
+
 .price-and-btn {
     display: flex;
     justify-content: space-between;
@@ -130,6 +129,12 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 24px;
+}
+
+/* Pre-loved games */
+.price-and-btn-pre-loved {
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -186,6 +191,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 
 
 
