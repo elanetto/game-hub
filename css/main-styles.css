@@ -4,6 +4,7 @@
     --dark-gray: #485668;
     --gray: #838383;
     --yellow: #FECF2F;
+    --orange: #FD5A27;
 }
 
 main {
@@ -160,6 +161,53 @@ p {
     padding-bottom: 20px;
 }
 
+/* FOOTER */
+
+.footer-dark-color {
+    background-color: var(--dark);
+    width: 100vw;
+    height: 286px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content {
+    height: 160px;
+    width: 360px;
+}
+
+.footer-content, .footer-content a {
+    color: #FFF;
+}
+
+.socials {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+
+.socials i:hover {
+    color: var(--orange);
+}
+
+.footer-links {
+    display: flex;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.footer-links ul li {
+    display: flex;
+    line-height: 2rem;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
 /* Small (sm) */
 @media (min-width: 640px) {
 
@@ -246,6 +294,25 @@ p {
         display: none;
     }
 
+    /* Why wont hue - red - work? */
+    .header-logo img:hover {
+        filter: hue-rotate(0deg);
+        filter: saturate(100);
+        filter: brightness(3);
+    }
+
+    /* FIX HOVER LOGO DESKTOP */
+
+    /* .header-logo:hover .hover-logo {
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        object-fit: cover;
+    } */
+
     /* .hover-logo {
         object-fit: inline;
         opacity: 0;
@@ -285,10 +352,18 @@ p {
     .icon-desk {
         text-align: center;
         font-size: 1.5rem;
+        color: var(--dark);
+    }
+
+
+    /* FIX HOVER */
+    .icon-desk:hover, .icon-desk i:hover, .icon-desk p:hover {
+        color: #B8411C;
     }
 
     .icon-desk p {
         font-size: 12px;
+        color: var(--dark);
     }
 
     .search-bar input {
