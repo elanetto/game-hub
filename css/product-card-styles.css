@@ -12,7 +12,7 @@ body {
 
 
 .product-card {
-    width: 344px;
+    width: 360px;
     height: 380px;
     border-radius: 6px;
     background-color: #FFF;
@@ -69,14 +69,14 @@ body {
 .game-details {
     margin-top: 10px;
     margin-left: 185px;
-    width: 155px;
+    width: 170px;
     height: 370px;
     padding: 0.2rem 0.7rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 0rem;
 }
 
 .game-title {
@@ -99,7 +99,7 @@ body {
 
 .game-prize {
     color: #0F172A;
-    font-size: 24px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -113,7 +113,7 @@ body {
     height: 28px;
     width: 140px;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 0.5rem;
 }
 
 .buy-now-btn:hover {
@@ -130,16 +130,19 @@ body {
 
 
 .price-and-btn-pre-loved {
-    margin-top: 60px;
+    margin-top: 0px;
 }
 
+.price-and-btn-latest-release {
+    margin-top: 117px;
+}
 
 
 .heart {
     color: #BBC5CF;
     position: relative;
     top: -390px;
-    left: 310px;
+    left: 330px;
     cursor: pointer;
 }
 
@@ -157,6 +160,7 @@ body {
     color: #485668;
     font-size: 14px;
     text-decoration: line-through;
+    margin-top: 100px;
 }
 
 
@@ -173,6 +177,7 @@ body {
     background-color: #FECF2F;
     color: #1B213C;
     font-weight: 600;
+    font-size: 1.2rem;
     height: 25px;
     width: 109px;
     position: absolute;
@@ -253,12 +258,18 @@ body {
     /* GAME DETAILS */
     
     .game-details {
-        margin-top: 260px;
-        padding: 0.2rem 0.7rem;
+        margin-top: 213px;
+        margin-left: 12px;
+        padding: 0rem 0rem;
+        width: 175px;
+        height: 110px;
         display: flex;
         flex-direction: column;
+        justify-content: baseline;
+        align-items: baseline;
+        gap: 0;
     }
-    
+
     .game-title {
         color: #0F172A;
         font-family: 'Barlow', sans-serif;
@@ -266,7 +277,9 @@ body {
         font-style: normal;
         font-weight: 600;
         line-height: normal;
+        margin-top: 2rem;
     }
+
     
     .game-category {
         color: #8B8B8B;
@@ -294,6 +307,7 @@ body {
         height: 28px;
         width: 101px;
         cursor: pointer;
+        margin-top: 0px;
     }
     
     .buy-now-btn:hover {
@@ -308,30 +322,27 @@ body {
     
     /* THE DIFFERENT CARDS: */
     
-    
-    .price-and-btn {
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    /* Latest release: */
-    .price-and-btn-latest-release {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 24px;
-    }
-    
     /* Pre-loved games */
     .price-and-btn-pre-loved {
+        margin-top: 0px;
         display: flex;
-        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
     }
-    
+
+    .price-and-btn-latest-release {
+        margin-top: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+    }
     
     .heart {
         color: #BBC5CF;
         position: relative;
-        top: -100px;
+        top: -120px;
         left: 170px;
         cursor: pointer;
     }
@@ -345,12 +356,12 @@ body {
     }
     
     /* PRE-LOVED GAME CARD */
-    
+
     .old-price {
         color: #485668;
         font-size: 14px;
         text-decoration: line-through;
-        position: relative;
+        margin-top: 0px;
     }
     
     .title-category-old-price-section {
@@ -358,7 +369,6 @@ body {
         flex-direction: column;
         gap: 8px;
     }
-    
     
     .game-sales-prize {
         color: #FD5A27;
@@ -377,7 +387,7 @@ body {
         width: 109px;
         top: 227px;
         text-align: center;
-        margin-left: 91px;
+        margin-left: 20px;
         align-items: center;
         justify-content: center;
     }

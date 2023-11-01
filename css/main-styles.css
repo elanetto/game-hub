@@ -46,20 +46,13 @@ body {
     cursor: pointer;
 }
 
-.hover-logo {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    object-fit: contain;
-    opacity: 0;
-    transition: opacity .2s;
+.header-logo img:hover {
+    filter: hue-rotate(0deg);
+    filter: saturate(100);
+    filter: brightness(3);
 }
 
-.header-logo:hover .hover-logo {
-    opacity: 1;
-}
+
 
 /* RIGHT HEADER */
 
@@ -173,14 +166,16 @@ main {
     margin-top: -50px;
 }
 
-.main-content {
-    /* width: 360px;
-    background-color: aquamarine; */
+.main-content, .game-section-title {
+    width: 360px;
 }
 
 .game-section {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
+    width: 360px;
 }
 
 .latest-games-section {
@@ -212,7 +207,52 @@ p {
     padding-bottom: 20px;
 }
 
+/* MID BANNER - INDEX */
+
+.desktop-pre-loved-banner-main, .tablet-pre-loved-banner {
+    display: none;
+}
+
+.banner-ad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.mobile-pre-loved-banner-main {
+    position: absolute;
+    z-index: 1;
+}
+
+.mid-banner-text {
+    position: relative;
+    top: 140px;
+    z-index: 2;
+    width: 360px;
+    color: var(--dark);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pre-loved-games-text {
+    margin-top: 9rem;
+}
+
+
 /* FOOTER */
+
+footer {
+    margin-top: 4rem;
+}
 
 .yellow-desktop-footer {
     display: none;
@@ -274,6 +314,71 @@ p {
 
 /* Medium */
 @media (min-width: 768px) {
+
+    .main-content {
+        width: 740px;
+    }
+
+    .game-section-title {
+        width: 720px;
+        margin-left: 20px;
+    }
+    
+    .game-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 765px;
+    }    
+
+    /* MID BANNER - INDEX */
+
+    .mobile-pre-loved-banner-main, .desktop-pre-loved-banner {
+    display: none;
+    }
+
+    .tablet-pre-loved-banner {
+        display: block;
+    }
+
+    /* Why does it not center itself? */
+    .banner-ad {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3.5rem;
+        margin-bottom: 3rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mobile-pre-loved-banner-main {
+        position: absolute;
+        z-index: 1;
+    }
+
+    .mid-banner-text {
+        position: relative;
+        top: -120px;
+        left: 40px;
+        z-index: 2;
+        width: 360px;
+        color: var(--dark);
+        font-family: 'Orbitron', sans-serif;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pre-loved-games-text {
+        margin-top: -7rem;
+    }    
 
 }
 
@@ -359,29 +464,6 @@ p {
         filter: brightness(3);
     }
 
-    /* FIX HOVER LOGO DESKTOP */
-
-    /* .header-logo:hover .hover-logo {
-        display: block;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        object-fit: cover;
-    } */
-
-    /* .hover-logo {
-        object-fit: inline;
-        opacity: 0;
-        transition: opacity .2s;
-        z-index: 2;
-    }
-    
-    .header-logo:hover .hover-logo {
-        opacity: 1;
-    } */
-
     .desktop-icons {
         display: flex;
         gap: 2rem;
@@ -413,8 +495,7 @@ p {
         color: var(--dark);
     }
 
-
-    /* FIX HOVER */
+    /* Hover for desktop nav icons */
     .icon-desk:hover, .icon-desk i:hover, .icon-desk p:hover {
         color: #B8411C;
     }
@@ -460,9 +541,6 @@ p {
         z-index: 20;
     }
 
-
-
-
     /* MAIN */
 
     main {
@@ -474,8 +552,162 @@ p {
         margin-top: 0px;
     }
 
+    .main-content, .game-section-title {
+        width: 1000px;
+    }
+    
+    .game-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 4rem;
+        width: 1000px;
+    }
 
+        /* MID BANNER - INDEX */
 
+    .mobile-pre-loved-banner-main, .desktop-pre-loved-banner {
+    display: none;
+    }
+
+    .tablet-pre-loved-banner {
+        display: block;
+    }
+
+    /* Why does it not center itself? */
+    .banner-ad {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mobile-pre-loved-banner-main {
+        position: absolute;
+        z-index: 1;
+    }
+
+    .mid-banner-text {
+        position: relative;
+        top: -120px;
+        left: 40px;
+        z-index: 2;
+        width: 360px;
+        color: var(--dark);
+        font-family: 'Orbitron', sans-serif;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pre-loved-games-text {
+        margin-top: -7rem;
+    } 
+
+        /* MID BANNER - INDEX */
+
+    .mobile-pre-loved-banner-main, .desktop-pre-loved-banner {
+    display: none;
+    }
+
+    .tablet-pre-loved-banner {
+        display: block;
+    }
+
+    /* Why does it not center itself? */
+    .banner-ad {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mobile-pre-loved-banner-main {
+        position: absolute;
+        z-index: 1;
+    }
+
+    .mid-banner-text {
+        position: relative;
+        top: -120px;
+        left: 40px;
+        z-index: 2;
+        width: 360px;
+        color: var(--dark);
+        font-family: 'Orbitron', sans-serif;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pre-loved-games-text {
+        margin-top: -7rem;
+    } 
+
+    /* MID BANNER - INDEX */
+
+    .mobile-pre-loved-banner-main, .tablet-pre-loved-banner {
+        display: none;
+        }
+    
+    .desktop-pre-loved-banner-main {
+        display: block;
+    }
+    
+    /* Why does it not center itself? */
+    .banner-ad {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2.5rem;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .mobile-pre-loved-banner-main {
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .mid-banner-text {
+        position: relative;
+        top: -100px;
+        left: 20px;
+        z-index: 2;
+        width: 670px;
+        color: var(--dark);
+        font-family: 'Orbitron', sans-serif;
+        font-size: 1.7rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+    
+    .pre-loved-games-text {
+        margin-top: -4rem;
+    }     
 
     /* FOOTER */
 
@@ -543,22 +775,10 @@ p {
         overflow: hidden;
     }
 
-    /* fix hover - more red? */
     .yellow-svg-and-logo img:hover {
         filter: hue-rotate(0deg);
-        filter: saturate(50);
-        filter: brightness(1deg);
+        filter: saturate(100);
+        filter: brightness(3);
     }
-
-}
-
-
-/*Extra Large XL */
-@media (min-width: 1280px) {
-
-}
-
-/* EXTRA Extra Large - XXL */
-@media (min-width: 1536px) {
 
 }
