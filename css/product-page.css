@@ -1,0 +1,317 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --dark: #1B213C;
+    --dark-gray: #485668;
+    --gray: #838383;
+    --lightgray: #E2E8F0;
+    --yellow: #FECF2F;
+    --orange: #FD5A27;
+}
+
+.breadcrumbs p {
+    color: #8C8C8C;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+.product-page-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.main-product-image {
+    width: 511px;
+    height: 656px;
+    background-image: url(../assets/games/ForgeLegend.jpeg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mini-product-image-1 {
+    background-image: url(../assets/games/gameplay/gameplay1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mini-product-image-2 {
+    background-image: url(../assets/games/gameplay/gameplay5.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mini-product-image-3 {
+    background-image: url(../assets/games/gameplay/gameplay3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mini-product-image-4 {
+    background-image: url(../assets/games/gameplay/gameplay4.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product-page-top {
+    display: flex;
+}
+
+.mini-product-images {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.product-images {
+    display: flex;
+    gap: 1rem;
+}
+
+.mini-prod-img {
+    width: 184px;
+    height: 152px;
+    background-color: var(--lightgray);
+}
+
+.buy-section {
+    width: 420px;
+    height: 416px;
+    background-color: var(--lightgray);
+}
+
+.shipping-section {
+    width: 420px;
+    height: 208px;
+    background-color: var(--lightgray);
+}
+
+.buy-and-shipping-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.product-page-top {
+    display: flex;
+    gap: 2rem;
+}
+
+.content-buy-section {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem 3rem;
+    gap: 2rem;
+}
+
+.content-buy-section h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: var(--dark);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.content-buy-section ul li {
+    color: var(--dark);
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.shipping-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 3rem 3rem;
+}
+
+.shipping-item {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.shipping-item div {
+    color: var(--dark);
+    font-family: 'Barlow' sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.prod-page-btn {
+    height: 64px;
+    width: 330px;
+    border: none;
+    border-radius: 6px;
+    font-size: 32px;
+    font-family: 'Barlow' sans-serif;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    cursor: pointer;
+}
+
+.product-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.bold-btn {
+    font-weight: 600;
+}
+
+.buy-new-prod-page {
+    background-color: var(--orange);
+}
+
+.buy-used-prod-page {
+    background-color: var(--yellow);
+    color: var(--dark);
+}
+
+.buy-used-prod-page:hover, .buy-new-prod-page:hover {
+    background-color: var(--dark);
+    color: #FFF;
+}
+
+/* IGN SCORE */
+
+.gary-box-ign-score {
+    width: 1163px;
+    height: 176px;
+    background-color: var(--lightgray);
+}
+
+.hexagon-svg-product-page img {
+    width: 112px;
+}
+
+.ign-logo-for-hexagon-product-page img {
+    width: 30px;
+}
+
+.hexagon-svg-product-page {
+    position: absolute;
+    z-index: 2;
+    margin-top: -25px;
+    margin-left: 2rem;
+}
+
+.ign-logo-for-hexagon-product-page {
+    position: relative;
+    top: 60px;
+    left: 75px;
+    z-index: 3;
+}
+
+.ign-number-product-page {
+    position: relative;
+    z-index: 3;
+    top: -10px;
+    left: 75px;
+}
+
+.ign-number-product-page {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 1.5539418458938599px 1.5539418458938599px rgba(0, 0, 0, 0.25);
+    font-family:'Inter' sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.ign-score-product-page-container {
+    display: flex;
+    align-items: center;
+}
+
+.ign-score-body-text {
+    margin: 4rem 9rem;
+}
+
+
+
+
+
+/* Small (sm) */
+@media (min-width: 640px) {
+
+
+}
+
+/* Medium */
+@media (min-width: 768px) {
+
+}
+
+/* Large */
+@media (min-width: 1024px) {
+
+    .breadcrumbs p {
+        color: #8C8C8C;
+        font-family: 'Inter', sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-top: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        width: 1000px;
+    }
+
+}
+
+
+/*Extra Large XL */
+@media (min-width: 1280px) {
+
+}
+
+/* EXTRA Extra Large - XXL */
+@media (min-width: 1536px) {
+
+}
