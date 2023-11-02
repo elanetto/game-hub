@@ -52,8 +52,6 @@ body {
     filter: brightness(3);
 }
 
-
-
 /* RIGHT HEADER */
 
 .right-header-mobile {
@@ -122,19 +120,22 @@ ul li {
       display: block;
 }
   
-
-
 /* HERO */
 
 .hero {
     max-height: 250px;
     width: 360px;
+    margin-bottom: -50px;
+}
+
+.hero-latest-releases {
+    margin-bottom: -85px;
 }
 
 .hero img {
     object-fit: cover;
     width: 100vw;
-    max-height: 250px;
+    min-height: 150px;
 }
 
 .hero-title {
@@ -155,6 +156,18 @@ ul li {
     z-index: 20;
 }
 
+.hero-title-latest-releases-1, .hero-title-latest-releases-2 {
+    top: -125px;
+    width: 220px;
+    height: 40px;
+}
+
+.hero-text-divs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
 /* MAIN */
 
 main {
@@ -163,7 +176,6 @@ main {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -50px;
 }
 
 .main-content, .game-section-title {
@@ -330,27 +342,35 @@ footer {
         justify-content: center;
         flex-wrap: wrap;
         width: 765px;
-    }    
+    } 
+    
+    /* HERO */
+
+    .hero-title-latest-releases-1, .hero-title-latest-releases-2 {
+        top: -130px;
+        width: 420px;
+        height: 40px;
+    }
+
+    .hero-text-divs {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
 
     /* MID BANNER - INDEX */
 
     .mobile-pre-loved-banner-main, .desktop-pre-loved-banner {
-    display: none;
+        display: none;
     }
 
     .tablet-pre-loved-banner {
         display: block;
     }
 
-    /* Why does it not center itself? */
     .banner-ad {
-        display: flex;
-        align-items: center;
-        justify-content: center;
         margin-top: 3.5rem;
         margin-bottom: 3rem;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .mobile-pre-loved-banner-main {
@@ -457,7 +477,6 @@ footer {
         display: none;
     }
 
-    /* Why wont hue - red - work? */
     .header-logo img:hover {
         filter: hue-rotate(0deg);
         filter: saturate(100);
@@ -522,23 +541,29 @@ footer {
     }
 
     /* HERO */
+
+    .hero img {
+        object-fit: cover;
+        width: 100vw;
+        max-height: 250px;
+    }
     
     .hero-title {
-        background-color: var(--yellow);
-        color: var(--dark);
-        font-family: 'Orbitron', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
         height: 60px;
         width: 750px;
         font-size: 1.7rem;
+        top: -90px;
+    }
+
+    .hero-title-latest-releases-1, .hero-title-latest-releases-2 {
+        top: -170px;
+        width: 600px;
+    }
+
+    .hero-text-divs {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        top: -80px;
-        z-index: 20;
+        flex-direction: column;
+        gap: 1rem;
     }
 
     /* MAIN */
@@ -575,7 +600,6 @@ footer {
         display: block;
     }
 
-    /* Why does it not center itself? */
     .banner-ad {
         display: flex;
         align-items: center;
@@ -584,6 +608,10 @@ footer {
         margin-bottom: 2rem;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .banner-ad a, .banner-ad, .banner-ad img, .mid-banner-text, .mobile-pre-loved-banner-main {
+        cursor: pointer;
     }
 
     .mobile-pre-loved-banner-main {
@@ -621,17 +649,6 @@ footer {
 
     .tablet-pre-loved-banner {
         display: block;
-    }
-
-    /* Why does it not center itself? */
-    .banner-ad {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .mobile-pre-loved-banner-main {
@@ -669,17 +686,6 @@ footer {
     
     .desktop-pre-loved-banner-main {
         display: block;
-    }
-    
-    /* Why does it not center itself? */
-    .banner-ad {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 2.5rem;
-        margin-bottom: 2rem;
-        margin-left: auto;
-        margin-right: auto;
     }
     
     .mobile-pre-loved-banner-main {
