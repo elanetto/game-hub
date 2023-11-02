@@ -217,10 +217,11 @@ main {
 
 /* IGN SCORE */
 
-.gary-box-ign-score {
+.gray-box-ign-score {
     width: 350px;
     height: 200px;
     background-color: var(--lightgray);
+    margin-top: 2rem;
 }
 
 .hexagon-svg-product-page img {
@@ -272,11 +273,13 @@ main {
     margin-top: 2rem;
     margin-left: 9rem;
     margin-right: 2rem;
+    color: var(--dark);
+    font-family: 'Barlow' sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
-
-
-
-
 
 /* Small (sm) */
 @media (min-width: 640px) {
@@ -287,18 +290,49 @@ main {
 /* Medium */
 @media (min-width: 768px) {
 
+    .product-page-top {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .buy-and-shipping-sections {
+        margin-top: -7px;
+        gap: 3.2rem;
+    }
+
+    .gray-box-ign-score {
+        width: 730px;
+        margin-top: 2rem;
+    }
+
+    .ign-score-body-text {
+        margin-top: 3.7rem;
+        font-size: 20px;
+    }
+
+    .hexagon-svg-product-page {
+        margin-top: 0px;
+    }
+
+    .ign-number-product-page {
+        top: 14px;
+    }
+
+    .ign-logo-for-hexagon-product-page {
+        top: 80px;
+    }
+
+    .game-section {
+        margin-left: -15px;
+    }
+
 }
 
 /* Large */
 @media (min-width: 1024px) {
 
     .breadcrumbs p {
-        color: #8C8C8C;
-        font-family: 'Inter', sans-serif;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 300;
-        line-height: normal;
         margin-top: 1rem;
         margin-left: auto;
         margin-right: auto;
@@ -308,11 +342,6 @@ main {
     }
 
     main {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
         margin-top: 2rem;
     }
     
@@ -325,44 +354,6 @@ main {
     .main-product-image {
         width: 511px;
         height: 656px;
-        background-image: url(../assets/games/ForgeLegend.jpeg);
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    
-    .mini-product-image-1 {
-        background-image: url(../assets/games/gameplay/gameplay1.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    
-    .mini-product-image-2 {
-        background-image: url(../assets/games/gameplay/gameplay5.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    
-    .mini-product-image-3 {
-        background-image: url(../assets/games/gameplay/gameplay3.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    
-    .mini-product-image-4 {
-        background-image: url(../assets/games/gameplay/gameplay4.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    
-    .product-page-top {
-        display: flex;
-        flex-direction: row;
-        gap: 1rem;
     }
     
     .mini-product-images {
@@ -384,177 +375,59 @@ main {
     
     .mini-prod-img {
         width: 184px;
-        height: 152px;
-        background-color: var(--lightgray);
     }
     
     .buy-section {
         width: 420px;
         height: 416px;
-        background-color: var(--lightgray);
         margin-top: 0rem;
     }
     
     .shipping-section {
         width: 420px;
-        height: 208px;
-        background-color: var(--lightgray);
     }
     
     .buy-and-shipping-sections {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-    }
-    
-    .content-buy-section {
-        display: flex;
-        flex-direction: column;
-        padding: 2.5rem 3rem;
-        gap: 2rem;
-    }
-    
-    .content-buy-section h1 {
-        font-family: 'Orbitron', sans-serif;
-        color: var(--dark);
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-    
-    .content-buy-section ul li {
-        color: var(--dark);
-        font-family: 'Barlow', sans-serif;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
+        margin-top: 0;
+        gap: 1rem;
     }
     
     .bold {
         font-weight: 600;
     }
     
-    .shipping-container {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        padding: 3rem 3rem;
-    }
-    
-    .shipping-item {
-        display: flex;
-        gap: 1rem;
-        align-items: center;
-    }
-    
-    .shipping-item div {
-        color: var(--dark);
-        font-family: 'Barlow' sans-serif;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    
     .prod-page-btn {
         height: 64px;
         width: 330px;
-        border: none;
-        border-radius: 6px;
-        font-size: 32px;
-        font-family: 'Barlow' sans-serif;
-        color: #FFF;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 3rem;
-        cursor: pointer;
-    }
-    
-    .product-buttons {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-    }
-    
-    .bold-btn {
-        font-weight: 600;
-    }
-    
-    .buy-new-prod-page {
-        background-color: var(--orange);
-    }
-    
-    .buy-used-prod-page {
-        background-color: var(--yellow);
-        color: var(--dark);
-    }
-    
-    .buy-used-prod-page:hover, .buy-new-prod-page:hover {
-        background-color: var(--dark);
-        color: #FFF;
     }
     
     /* IGN SCORE */
     
-    .gary-box-ign-score {
-        width: 1163px;
-        height: 176px;
-        background-color: var(--lightgray);
-    }
-    
-    .hexagon-svg-product-page img {
-        width: 112px;
-    }
-    
-    .ign-logo-for-hexagon-product-page img {
-        width: 30px;
+    .gray-box-ign-score {
+        width: 1162px;
     }
     
     .hexagon-svg-product-page {
-        position: absolute;
-        z-index: 2;
         margin-top: -25px;
         margin-left: 2rem;
     }
     
     .ign-logo-for-hexagon-product-page {
-        position: relative;
         top: 60px;
         left: 75px;
-        z-index: 3;
     }
     
     .ign-number-product-page {
-        position: relative;
-        z-index: 3;
         top: -10px;
         left: 75px;
     }
     
-    .ign-number-product-page {
-        color: #FFF;
-        text-align: center;
-        text-shadow: 0px 1.5539418458938599px 1.5539418458938599px rgba(0, 0, 0, 0.25);
-        font-family:'Inter' sans-serif;
-        font-size: 42px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: normal;
-    }
-    
-    .ign-score-product-page-container {
-        display: flex;
-        align-items: center;
-    }
-    
     .ign-score-body-text {
-        margin: 4rem 9rem;
+        margin: 4.5rem 9rem;
+    }
+
+    .game-section {
+        margin-left: 0;
     }
 
 }
