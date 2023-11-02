@@ -78,7 +78,6 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     gap: 0rem;
 }
 
@@ -90,6 +89,7 @@ a {
     font-weight: 600;
     line-height: normal;
     margin-top: 30px;
+    height: 80px;
 }
 
 .game-category {
@@ -281,6 +281,7 @@ a {
         font-weight: 600;
         line-height: normal;
         margin-top: 2rem;
+        height: auto;
     }
 
     
