@@ -177,6 +177,11 @@ ul li {
     height: 70px;
 }
 
+.hero-title-sale-1, .hero-title-sale-2 {
+    top: -130px;
+    width: 200px;
+}
+
 /* MAIN */
 
 main {
@@ -272,58 +277,58 @@ p {
     margin-top: 9rem;
 }
 
-        /* MID BANNER ABOUT TED - PRE-LOVED GAMES -  */
+/* MID BANNER ABOUT TED - PRE-LOVED GAMES -  */
 
-        .ted-banner-ad {
-            width: 350px;
-            display: flex;
-            margin-top: 3rem;
-            margin-bottom: -8rem;
-        }
+.ted-banner-ad {
+    width: 350px;
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: -8rem;
+}
     
-        .ted-img img {
-            width: 150px;
-            min-height: 300px;
-            object-fit: cover;
-        }
+.ted-img img {
+    width: 150px;
+    min-height: 300px;
+    object-fit: cover;
+}
     
-        .ted-banner-content {
-            width: 210px;
-            max-height: 300px;
-            color: #FFF;
-            display: flex;
-            flex-direction: column;
-            gap: 1.5rem;
-            padding-left: 2rem;
-            padding-top: 3rem;
-            background-color: var(--dark);
-        }
+.ted-banner-content {
+    width: 210px;
+    max-height: 300px;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-left: 2rem;
+    padding-top: 3rem;
+    background-color: var(--dark);
+    }
     
-        .ted-banner-title {
-            font-family: 'Orbitron', sans-serif;
-            font-size: 1.4rem;
-        }
+.ted-banner-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.4rem;
+    }
     
-        .chat-with-ted-btn {
-            background-color: var(--orange);
-            height: 90px;
-            width: 130px;
-            border: none;
-            border-radius: 6px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: 0.5rem;
-            color: #FFF;
-            font-size: 1rem;
-            font-family: 'barlow', sans-serif;
-        }
+.chat-with-ted-btn {
+    background-color: var(--orange);
+    height: 90px;
+    width: 130px;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: #FFF;
+    font-size: 1rem;
+    font-family: 'barlow', sans-serif;
+}
     
-        .chat-with-ted-btn:hover {
-            background-color: var(--yellow);
-            color: var(--dark);
-        }
+.chat-with-ted-btn:hover {
+    background-color: var(--yellow);
+    color: var(--dark);
+}
 
 
 /* FOOTER */
@@ -447,6 +452,11 @@ footer {
         padding-right: 80px;
         width: 470px;
         height: 80px;
+    }
+
+    .hero-title-sale-1, .hero-title-sale-2 {
+        top: -140px;
+        width: 380px;
     }
 
     /* MID BANNER - INDEX */
@@ -728,6 +738,11 @@ footer {
         height: 80px;
     }
 
+    .hero-title-sale-1, .hero-title-sale-2 {
+        top: -180px;
+        width: 500px;
+    }
+
     /* MAIN */
 
     main {
@@ -752,7 +767,11 @@ footer {
         width: 1000px;
     }
 
-    /* MID BANNER - INDEX */
+    /* MID BANNER - INDEX - ABOUT PRE-LOVED GAMES*/
+
+    .mid-banner-section {
+        margin-bottom: 5rem;
+    }
 
     .mobile-pre-loved-banner-main, .tablet-pre-loved-banner {
         display: none;
