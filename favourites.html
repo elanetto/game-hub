@@ -4,10 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/shared/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/shared/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/shared/favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <script src="https://kit.fontawesome.com/cfcc846d5b.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/product-card-styles.css">
     <link rel="stylesheet" href="css/main-styles.css">
+    <link rel="stylesheet" href="css/product-page.css">
     <title>:: Favourites || Game Hub ::</title>
 </head>
 <body>
@@ -119,18 +116,143 @@
             </div>
         </div>
     </header>
+    <!-- END OF HEADER -->
 
-    <!-- HERO BANNER -->
-    <div class="hero">
-        <img src="assets/pexels-imgs/super-mario-smaller.png" alt="super mario" class="mario-header">
-        <div class="hero-title">The universe of games</div>
+    <div class="breadcrumbs">
+        <p>
+            .... <a href="index.html">Home </a> / Favourites
+        </p>
     </div>
-    
+
     <!-- MAIN -->
     <main>
-        <h2>This is the Favourites page</h2>
+          <!-- LATEST GAMES SECTION -->
+          <div class="favourite-games-content">
 
-        
+            <div class="latest-games-text game-section-title">
+                <h2>My favourite games</h2>
+                <p>My favourites are...</p>
+            </div>
+            <div class="latest-games-section game-section">
+                <!-- ADD FAVOURITE <3 GAMES HERE -->
+    
+                    <a href="product-page.html">
+                        <div class="product-card">
+                            <div class="game-img">
+                                <img src="assets/games/ForgeLegend.jpeg" alt="Forge Legend">
+                            </div>
+                            <div class="game-details">
+                                <div class="title-category-old-price-section">
+                                    <div class="game-title">Forge Legend</div>
+                                <div class="game-category">Latest releases</div>
+                                </div>
+                                <div class="price-and-btn-latest-release">
+                                    <div class="game-prize">$ 59</div>
+                                    <button class="buy-now-btn">Buy now <i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                            <div class="score">
+                                <figure class="ign-score"><img src="assets/shared/ign-score-hexagon.svg" alt="ign score" class="hexagon">
+                                    <div class="inside-hexagon">
+                                        <span class="ign-number">8</span>
+                                        <img src="assets/shared/ign-logo.png" alt="ign logo" class="ign-logo">
+                                    </div>
+                                </figure>
+                                <span class="heart fav-heart">
+                                    <i class="fa-solid fa-heart"></i></span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="product-page.html">
+                        <div class="product-card">
+                            <div class="game-img">
+                                <img src="assets/games/Furious.jpeg" alt="Furious">
+                            </div>
+                            <div class="game-details">
+                                <div class="title-category-old-price-section">
+                                    <div class="game-title">Furious</div>
+                                <div class="game-category">Latest releases</div>
+                                </div>
+                                <div class="price-and-btn-latest-release">
+                                    <div class="game-prize">$ 64</div>
+                                    <button class="buy-now-btn">Buy now <i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                            <div class="score">
+                                <figure class="ign-score"><img src="assets/shared/ign-score-hexagon.svg" alt="ign score" class="hexagon">
+                                    <div class="inside-hexagon">
+                                        <span class="ign-number">9</span>
+                                        <img src="assets/shared/ign-logo.png" alt="ign logo" class="ign-logo">
+                                    </div>
+                                </figure>
+                                <span class="heart fav-heart">
+                                    <i class="fa-solid fa-heart"></i></span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="product-page.html">
+                        <div class="product-card">
+                            <div class="game-img">
+                                <img src="assets/games/Cyberpunk.jpeg" alt="Cyberpunk">
+                            </div>
+                            <div class="game-category-tag">pre-loved</div>
+                            <div class="game-details">
+                                <div class="title-category-old-price-section">
+                                    <div class="game-title">Cyberpunk</div>
+                                <div class="game-category">Latest releases</div>
+                                </div>
+                                <div class="price-and-btn-latest-release">
+                                    <div class="game-prize">$ 58</div>
+                                    <button class="buy-now-btn">Buy now <i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                            <div class="score">
+                                <figure class="ign-score"><img src="assets/shared/ign-score-hexagon.svg" alt="ign score" class="hexagon">
+                                    <div class="inside-hexagon">
+                                        <span class="ign-number">7</span>
+                                        <img src="assets/shared/ign-logo.png" alt="ign logo" class="ign-logo">
+                                    </div>
+                                </figure>
+                                <span class="heart fav-heart">
+                                    <i class="fa-solid fa-heart"></i></span>
+                            </div>
+                        </div>
+                    </a>
+    
+                    <a href="product-page.html">
+                        <div class="product-card">
+                            <div class="game-img">
+                                <img src="assets/games/PingPong.jpeg" alt="Ping Pong">
+                            </div>
+                            <div class="game-category-tag">SALE</div>
+                            <div class="game-details">
+                                <div class="title-category-old-price-section">
+                                    <div class="game-title">Ping Pong</div>
+                                <div class="game-category">On sale!</div>
+                                <div class="old-price">$ 24</div>
+                                </div>
+                                <div class="price-and-btn-pre-loved">
+                                    <div class="game-sales-prize">$ 11</div>
+                                    <button class="buy-now-btn">Buy now <i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                            <div class="score">
+                                <figure class="ign-score"><img src="assets/shared/ign-score-hexagon.svg" alt="ign score" class="hexagon">
+                                    <div class="inside-hexagon">
+                                        <span class="ign-number">4</span>
+                                        <img src="assets/shared/ign-logo.png" alt="ign logo" class="ign-logo">
+                                    </div>
+                                </figure>
+                                <span class="heart fav-heart">
+                                    <i class="fa-solid fa-heart"></i></span>
+                            </div>
+                        </div>
+                    </a>
+
+            </div>
+          </div>
     </main>
 
     <!-- FOOTER -->
@@ -147,7 +269,7 @@
                         <div class="footer-links-one">
                             <ul>
                                 <li><a href="about.html">About us</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="contact.html">Contact</a></li>
                                 <li><a href="#">FAQ</a></li>
                             </ul>
                         </div>
