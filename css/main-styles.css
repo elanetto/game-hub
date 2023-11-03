@@ -3,12 +3,18 @@
     --dark: #1B213C;
     --dark-gray: #485668;
     --gray: #838383;
+    --lightgray: #E2E8F0;
     --yellow: #FECF2F;
     --orange: #FD5A27;
 }
 
 body {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
     display: flex;
     flex-direction: column;
 }
@@ -194,6 +200,7 @@ main {
 
 .main-content, .game-section-title {
     width: 360px;
+    margin-bottom: 1rem;
 }
 
 .game-section {
@@ -330,6 +337,68 @@ p {
     color: var(--dark);
 }
 
+/* FORMS */
+
+/* LOG IN PAGE */
+
+.log-in-gray-box {
+    color: var(--dark);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.log-intitle {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    height: 0.1rem;
+    font-size: 14px;
+}
+
+.login-form input {
+    width: 300px;
+    height: 3rem;
+    border: none;
+    border-radius: 6px;
+    padding-left: 1rem;
+}
+
+.log-in-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--lightgray);
+    width: 350px;
+    height: 400px;
+}
+
+.log-in-btn {
+    background: var(--orange);
+    color: #FFF;
+    width: 300px;
+    height: 3rem;
+    border: none;
+    border-radius: 6px;
+}
+
+.log-in-btn:hover {
+    background-color: var(--yellow);
+    color: var(--dark);
+}
+
+.forgot-password-text {
+    font-size: 14px;
+    text-align: center;
+    margin-top: -1rem;
+}
 
 /* FOOTER */
 
@@ -505,51 +574,67 @@ footer {
         margin-top: -7rem;
     } 
     
-        /* MID BANNER ABOUT TED - PRE-LOVED GAMES -  */
+    /* MID BANNER ABOUT TED - PRE-LOVED GAMES -  */
 
-        .ted-banner-ad {
-            width: 750px;
-            display: flex;
-            margin-top: 2rem;
-            margin-bottom: 6rem;
-        }
+    .ted-banner-ad {
+        width: 750px;
+        display: flex;
+        margin-top: 2rem;
+        margin-bottom: 6rem;
+    }
     
-        .ted-img img {
-            width: 400px;
-            height: 250px;
-            object-fit: cover;
-        }
+    .ted-img img {
+        width: 400px;
+        height: 250px;
+        object-fit: cover;
+    }
 
-        .ted-banner-content {
-            width: 350px;
-            min-height: 250px;
-            color: #FFF;
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-            padding-left: 2.5rem;
-            padding-top: 4rem;
-            background-color: var(--dark);
-        }
+    .ted-banner-content {
+        width: 350px;
+        min-height: 250px;
+        color: #FFF;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding-left: 2.5rem;
+        padding-top: 4rem;
+        background-color: var(--dark);
+    }
     
-        .ted-banner-title {
-            font-family: 'Orbitron', sans-serif;
-            font-size: 36px;
-        }
+    .ted-banner-title {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 36px;
+    }
     
-        .chat-with-ted-btn {
-            height: 64px;
-            width: 270px;
-            flex-direction: row;
-            gap: 1rem;
-            font-size: 1.5rem;
-            margin-top: 1rem;
-        }
+    .chat-with-ted-btn {
+        height: 64px;
+        width: 270px;
+        flex-direction: row;
+        gap: 1rem;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
     
-        .chat-with-ted-btn:hover {
-            background-color: var(--yellow);
-            color: var(--dark);
-        }
+    .chat-with-ted-btn:hover {
+        background-color: var(--yellow);
+        color: var(--dark);
+    }
+
+    /* FORMS */
+
+    /* LOG IN PAGE */
+
+    .login-form input {
+        width: 450px;
+    }
+
+    .log-in-container {
+        width: 550px;
+    }
+
+    .log-in-btn {
+        width: 450px;
+    }
 
         
 

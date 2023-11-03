@@ -4,10 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/shared/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/shared/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/shared/favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <script src="https://kit.fontawesome.com/cfcc846d5b.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/product-card-styles.css">
     <link rel="stylesheet" href="css/main-styles.css">
+    <link rel="stylesheet" href="css/product-page.css">
     <title>:: Log in || Game Hub ::</title>
 </head>
 <body>
@@ -119,18 +116,39 @@
             </div>
         </div>
     </header>
+    <!-- END OF HEADER -->
 
-    <!-- HERO BANNER -->
-    <div class="hero">
-        <img src="assets/pexels-imgs/super-mario-smaller.png" alt="super mario" class="mario-header">
-        <div class="hero-title">The universe of games</div>
+    <div class="breadcrumbs">
+        <p>
+            .... <a href="index.html">Home </a> / Log in
+        </p>
     </div>
-    
+
     <!-- MAIN -->
     <main>
-        <h2>This is the Log in page</h2>
-
         
+
+            <div class="game-section-title">
+                <h2>Log in</h2>
+                <p>Your adventure awaits!</p>
+            </div>
+
+            <div class="place-login-in-center"></div>
+            
+                <div class="log-in-container">
+                    <div class="log-in-gray-box">
+                        <div class="log-intitle">Log in</div>
+                        <form class="login-form">
+                            <label for="fname">First name:</label><br>
+                            <input type="text" class="fname" name="fname" placeholder="My email is..."><br>
+                            <label for="lname">Last name:</label><br>
+                            <input type="text" class="lname" name="lname" placeholder="My password is...">
+                        </form>
+                        <button class="log-in-btn">Log in</button>
+                        <div class="forgot-password-text"> <a href="#">Forgot password?</a></div>
+                    </div>
+                </div>
+            </div>
     </main>
 
     <!-- FOOTER -->
@@ -147,7 +165,7 @@
                         <div class="footer-links-one">
                             <ul>
                                 <li><a href="about.html">About us</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="contact.html">Contact</a></li>
                                 <li><a href="#">FAQ</a></li>
                             </ul>
                         </div>
