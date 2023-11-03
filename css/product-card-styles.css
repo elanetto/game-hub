@@ -157,6 +157,14 @@ a {
     color: #FD5A27;
 }
 
+.fav-heart {
+    color: #FD5A27;
+}
+
+.fav-heart:hover {
+    color: #FECF2F;
+}
+
 /* PRE-LOVED GAME CARD */
 
 .old-price {
@@ -203,6 +211,14 @@ a {
 
 /* Medium */
 @media (min-width: 768px) {
+
+    .fav-heart {
+        color: #FD5A27;
+    }
+    
+    .fav-heart:hover {
+        color: #FECF2F;
+    }
 
 }
 
@@ -357,6 +373,14 @@ a {
     
     .heart:active {
         color: #FD5A27;
+    }
+
+    .fav-heart {
+        color: #FD5A27;
+    }
+    
+    .fav-heart:hover {
+        color: #FECF2F;
     }
     
     /* PRE-LOVED GAME CARD */
