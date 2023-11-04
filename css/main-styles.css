@@ -19,6 +19,10 @@ main {
     flex-direction: column;
 }
 
+button {
+    cursor: pointer;
+}
+
 /* HEADER */
 
 .desktop-dark-line {
@@ -188,6 +192,16 @@ ul li {
     width: 200px;
 }
 
+.hero-title-sell-games-1, .hero-title-sell-games-2 {
+    top: -148px;
+    width: 250px;
+    padding-left: 2rem;
+}
+
+.hero-title-sell-games-2 {
+    height: 80px;
+}
+
 /* MAIN */
 
 main {
@@ -355,12 +369,12 @@ footer {
     height: 286px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-left: 5rem;
 }
 
 .footer-content {
     height: 160px;
-    width: 360px;
 }
 
 .footer-content, .footer-content a {
@@ -465,6 +479,11 @@ footer {
     .hero-title-sale-1, .hero-title-sale-2 {
         top: -140px;
         width: 380px;
+    }
+
+    .hero-title-sell-games-1, .hero-title-sell-games-2 {
+        top: -165px;
+        width: 450px;
     }
 
     /* MID BANNER - INDEX */
@@ -765,6 +784,12 @@ footer {
     .hero-title-sale-1, .hero-title-sale-2 {
         top: -180px;
         width: 500px;
+    }
+
+    .hero-title-sell-games-1, .hero-title-sell-games-2 {
+        top: -220px;
+        width: 500px;
+        height: 80px;
     }
 
     /* MAIN */
