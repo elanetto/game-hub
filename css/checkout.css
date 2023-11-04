@@ -375,6 +375,36 @@
     color: var(--orange);
 }
 
+/* Contact */
+
+.ted-on-contact-page-btn {
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    gap: 1.5rem;
+    height: 60px;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 6px;
+    color: #FFF;
+}
+
+.ted-on-contact-page-btn:hover {
+    background-color: var(--yellow);
+    color: var(--dark);
+}
+
+.call-us {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+
+
 
 /* Small (sm) */
 @media (min-width: 640px) {
@@ -479,6 +509,16 @@
 
     .free-shipping-banner-my-cart {
         width: 600px;
+    }
+
+    /* Contact */
+
+    .ted-on-contact-page-btn {
+        width: 270px;
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+        height: 90px;
     }
 
 
@@ -639,6 +679,21 @@
     .worth-calculated {
         width: 350px;
         font-size: 1.5rem;
+    }
+
+    /* contact */
+
+    .ted-on-contact-page-btn {
+        height: 120px;
+        width: 300px;
+        padding: 10px;
+        margin-bottom: 1rem;
+    }
+
+    .contac-us-btn {
+        height: 120px;
+        width: 300px;
+        padding: 10px;
     }
 
 }
