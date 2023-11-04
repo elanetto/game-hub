@@ -315,6 +315,12 @@
 
 /* sell your games */
 
+.gray-text-content-box {
+    background-color: var(--lightgray);
+    width: 340px;
+    padding: 2rem;
+}
+
 .desktop-img, .tablet-img {
     display: none;
 }
@@ -331,9 +337,10 @@
 }
 
 .sell-game, .find-worth, .ship-game {
-    background-color: var(--lightgray);
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 2rem;
 }
 
@@ -440,26 +447,34 @@
 
     /* sell your games */
 
+    .gray-box-img-container {
+        height: 100%;
+    }
+
     .mobile-img {
         display: none;
     }
 
     .tablet-img {
         display: block;
-        width: 100px;
     }
 
     .sell-game, .find-worth, .ship-game {
-        background-color: var(--lightgray);
         display: flex;
         flex-direction: row;
     }
+
+    .gray-text-content-box {
+        background-color: var(--lightgray);
+        height: 530px;
+    }
+
 
     .sell-your-games-box {
         width: 600px;
         display: flex;
         flex-direction: column;
-        gap: 2rem;
+        gap: 0rem;
     }
 
     .free-shipping-banner-my-cart {
@@ -577,6 +592,53 @@
 
     .free-shipping-success {
         width: 950px;
+    }
+
+    /* Sell your games */
+
+    .tablet-img {
+        display: none;
+    }
+
+    .desktop-img {
+        display: block;
+        position: relative;
+        z-index: 2;
+        height: 490px;
+    }
+
+    .sell-game, .find-worth, .ship-game {
+        background-color: var(--lightgray);
+        width: 1040px;
+        height: 490px;
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .gray-text-content-box {
+        height: 490px;
+        width: 900px;
+        padding: 4rem;
+    }
+
+    .sell-your-games-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .input {
+        width: 350px;
+    }
+
+    .worth-calculated {
+        width: 350px;
+        font-size: 1.5rem;
     }
 
 }
