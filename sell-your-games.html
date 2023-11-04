@@ -20,6 +20,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/product-card-styles.css">
     <link rel="stylesheet" href="css/main-styles.css">
+    <link rel="stylesheet" href="css/checkout.css">
     <title>:: Sell your game || Game Hub ::</title>
 </head>
 <body>
@@ -122,13 +123,90 @@
 
     <!-- HERO BANNER -->
     <div class="hero">
-        <img src="assets/pexels-imgs/super-mario-smaller.png" alt="super mario" class="mario-header">
-        <div class="hero-title">The universe of games</div>
+        <img src="assets/pexels-imgs/hero_sellyourgames _1300x304.png" alt="sell your games" class="sell-games-header">
+        <div class="hero-text-divs hero-text-sell-your-games">
+            <div class="hero-title hero-title-sell-games-1">Sell your games</div>
+            <div class="hero-title hero-title-sell-games-2">Finished your game?
+                <br>Send it off to be loved again!</div>
+        </div>
     </div>
     
     <!-- MAIN -->
     <main>
-        <h2>This is the Sell-your-game page</h2>
+        <div class="game-section-title">
+            <h2>Sell your pre-loved games</h2>
+            <p>Good for your wallet, good for the environment!</p>
+        </div>
+        <div class="sell-your-games-flex-container">
+            <div class="sell-your-games-box">
+                <div class="sell-game">
+                    <div class="sell-game-img-content">
+                        <img src="assets/pexels-imgs/about-pages/sell_your_game_desktop.png" alt="sell your games" class="sell-games-desktop-img desktop-img">
+                        <img src="assets/pexels-imgs/about-pages/sell_your_game_tablet.png" alt="sell your games" class="sell-games-tablet-img tablet-img">
+                    </div>
+                    <div class="sell-game-text-content">
+                        <div class="title-in-gray-box-about-pages">Sell your games</div>
+                        <div>When you’ve filled in your details, and calculated the value of your game - you can ship it our way with the printout stamp you will receive on email.</div>
+                        <div>Give your loved game a new home - and earn some bucks doing it!</div>
+                    </div>
+                </div>
+                <!-- mobile img - only visible in mobile version -->
+                <div class="mobile-img-sell-games">
+                    <img src="assets/pexels-imgs/about-pages/sell_your_game_mobile.png" alt="sell your games" class="sell-games-mobile-img mobile-img">
+                </div>
+                <!-- end mobile div -->
+                <div class="find-worth">
+                    <div>
+                        <div class="form-title">Find the worth of your game</div>
+                        <form class="form billing-form-4">
+                            <label for="fname">Game title:</label>
+                            <input type="text" class="input" placeholder="Game title...">
+                            <label for="lname">Genre:</label>
+                            <input type="text" class="input" placeholder="Genre...">
+                            <label for="lname">Year it was released:</label>
+                            <input type="text" class="input" placeholder="Year...">
+                        </form>
+                        <button class="my-cart-proceed-btn sell-page-btn">Calculate</button>
+                        <div class="worth-calculated">
+                            <div class="worth-calc-title">Worth:</div>
+                            <div class="worth-calc-result">$$$</div>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/pexels-imgs/about-pages/game_worth_desktop.png" alt="game worth" class="game-worth-desktop-img desktop-img">
+                        <img src="assets/pexels-imgs/about-pages/game_worth_tablet.png" alt="game worth" class="game-worth-tablet-img tablet-img">
+                    </div>
+                </div>
+                <!-- mobile img - only visible in mobile version -->
+                <div class="mobile-img-game-worth">
+                    <img src="assets/pexels-imgs/about-pages/game_worth_mobile.png" alt="game worth" class="game-worth-mobile-img mobile-img">
+                </div>
+                <!-- end mobile div -->
+                <div class="ship-game">
+                    <div>
+                        <img src="assets/pexels-imgs/about-pages/ship_desktop.png" alt="ship your games to us" class="ship-game-desktop-img desktop-img">
+                        <img src="assets/pexels-imgs/about-pages/ship_tablet.png" alt="ship your games to us" class="ship-game-tablet-img tablet-img">
+                    </div>
+                    <div>
+                        <div class="form-title">Ship your game to us!</div>
+                        <form class="form billing-form-4">
+                            <label for="fname">Full name:</label>
+                            <input type="text" class="input" placeholder="Full name...">
+                            <label for="lname">Address:</label>
+                            <input type="text" class="input" placeholder="My address is...">
+                            <label for="lname">Email:</label>
+                            <input type="text" class="input" placeholder="My email...">
+                        </form>
+                        <button class="my-cart-proceed-btn sell-page-btn">Get verification email</button>
+                    </div>
+                </div>
+                <!-- mobile img - only visible in mobile version -->
+                <div class="mobile-img-ship-game">
+                    <img src="assets/pexels-imgs/about-pages/ship_mobile.png" alt="ship your games to us" class="ship-game-mobile-img mobile-img">
+                </div>
+                <!-- end mobile div -->
+            </div>
+        </div>
 
         
     </main>

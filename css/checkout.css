@@ -10,10 +10,26 @@
 
 /* Progress-bar */
 
+.progress-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .progress-text {
     display: flex;
     justify-content: space-between;
     font-size: 14px;
+}
+
+.progress-text a {
+    padding-bottom: 30px;
+
+}
+
+.progress-svg {
+    position: relative;
+    z-index: -1;
 }
 
 .progressbar {
@@ -29,20 +45,20 @@
     width: 120px;
 }
 
-.my-cart-box-title {
-    background-color: var(--lightgray);
-    width: 380px;
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 1rem;
-    padding-left: 9rem;
-}
-
 .my-cart-box {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     color: var(--dark);
+    width: 340px;
+}
+
+.my-cart-box-title {
+    background-color: var(--lightgray);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    padding-left: 9rem;
 }
 
 .my-cart-item {
@@ -111,7 +127,7 @@
     color: #FFF;
     height: 3rem;
     font-size: 1.2rem;
-    width: 380px;
+    width: 340px;
 }
 
 .my-cart-proceed-btn:hover {
@@ -167,7 +183,7 @@
 }
 
 .login-form input, .input {
-    width: 300px;
+    width: 280px;
     height: 3rem;
     border: none;
     border-radius: 6px;
@@ -181,17 +197,18 @@
     align-items: center;
     justify-content: center;
     background-color: var(--lightgray);
-    width: 350px;
+    width: 340px;
     height: 400px;
 }
 
 .log-in-btn {
     background: var(--orange);
     color: #FFF;
-    width: 300px;
+    width: 280px;
     height: 3rem;
     border: none;
     border-radius: 6px;
+    margin-top: 1rem;
 }
 
 .log-in-btn:hover {
@@ -207,9 +224,19 @@
 
 /* Shipping and billing */
 
-.billing, .shipping {
+.shipping-container-box {
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+}
+
+.billing {
     background-color: var(--lightgray);
-    width: 380px;
+    margin-bottom: 2rem;
+}
+
+.shipping {
+    background-color: var(--lightgray);
 }
 
 .shipping-and-billing-container {
@@ -228,12 +255,12 @@
 .pay-option {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 .payment-options {
     display: flex;
-    gap: 1.5rem;
+    gap: 1.7rem;
 }
 
 .shipping-and-total {
@@ -256,7 +283,6 @@
     background-color: var(--lightgray);
     display: flex;
     color: var(--dark);
-    width: 380px;
 }
 
 .title-in-gray-box {
@@ -284,6 +310,62 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    width: 340px;
+}
+
+/* sell your games */
+
+.desktop-img, .tablet-img {
+    display: none;
+}
+
+.mobile-img {
+    width: 340px;
+}
+
+.sell-your-games-box {
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.sell-game, .find-worth, .ship-game {
+    background-color: var(--lightgray);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.sell-game-text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.title-in-gray-box-about-pages {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+}
+
+.sell-page-btn {
+    width: 280px;
+    margin-top: 1rem;
+}
+
+.form-title {
+    margin-bottom: 1rem;
+}
+
+.worth-calculated {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.worth-calc-result {
+    color: var(--orange);
 }
 
 
@@ -300,10 +382,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-
-    .progressbar {
-        width: 400px;
     }
 
     .my-cart-box {
@@ -336,6 +414,55 @@
     }
 
     .success-box {
+        width: 600px;
+    }
+
+    .success-flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* shipping */
+
+    .shipping-container-box {
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .shipping, .billing {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* sell your games */
+
+    .mobile-img {
+        display: none;
+    }
+
+    .tablet-img {
+        display: block;
+        width: 100px;
+    }
+
+    .sell-game, .find-worth, .ship-game {
+        background-color: var(--lightgray);
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sell-your-games-box {
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .free-shipping-banner-my-cart {
         width: 600px;
     }
 
@@ -374,6 +501,10 @@
         justify-content: space-between;
         padding: 1rem 3rem;
     }
+
+    .free-shipping-banner-my-cart {
+        width: auto;
+    }
     
     .icon-and-text {
         display: flex;
@@ -385,20 +516,36 @@
 
     /* Shipping */
 
+    .shipping-container-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .free-shipping-banner-shipping-page {
+        width: auto;
+        margin-top: 1rem;
+    }
+
     .flex-shipping-billing-total {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: row;
         gap: 2rem;
     }
 
     .shipping-and-total {
         display: flex;
         flex-direction: column;
-        gap: 4rem;
+        gap: 3rem;
     }
 
     .total-content-shipping-page {
         padding: 2rem 3rem;
+    }
+
+    .shipping-and-billing-container {
+        gap: 0;
+
     }
 
     /* SUCCESS */
@@ -426,6 +573,10 @@
 
     .desktop-groot {
         display: block;
+    }
+
+    .free-shipping-success {
+        width: 950px;
     }
 
 }
