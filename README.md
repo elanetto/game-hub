@@ -2,6 +2,8 @@
 This is a school project from Noroff, created by a first-year student at FrontEnd Development.
 The main task was to create an online store for (in this case) video games.
 
+You can check out the deployed project [here](https://game-ck23p0uc3-anettes-projects.vercel.app/index.html)
+
 ```bash
 This is Anettes first big self-made HTML & CSS project
 ```
