@@ -4,7 +4,7 @@ The main task was to create an online store for (in this case) video games.
 
 You can check out the deployed project [here](https://game-ck23p0uc3-anettes-projects.vercel.app/index.html)
 
-All links in the header links to their own HTML-site.
+All links in the header works, and are linked to their own HTML-sites.
 
 ```bash
 This is Anettes first big self-made HTML & CSS project
