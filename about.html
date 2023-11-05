@@ -24,206 +24,196 @@
     <title>:: About || Game Hub ::</title>
 </head>
 <body>
-     <!-- HEADER / NAV -->
-     <header>
-        <div class="desktop-dark-line"></div>
-        <div class="yellow-header">
-
-            <div class="header-menu-yellow">
-
-                <div class="left-header">
-                    <div class="header-logo">
-                        <a href="index.html">
-                            <img src="assets/shared/GameHub_Logo.png" alt="Game Hub logo" class="game-hub-logo"/>
+<!-- HEADER / NAV -->
+<header>
+    <div class="desktop-dark-line"></div>
+    <div class="yellow-header">
+        <div class="header-menu-yellow">
+            <div class="left-header">
+                <div class="header-logo">
+                    <a href="index.html">
+                        <img src="assets/shared/GameHub_Logo.png" alt="Game Hub logo" class="game-hub-logo"/>
+                    </a>
+                </div>
+            </div>
+            <div class="right-header-desktop">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search for game ">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="desktop-icons">
+                    <div class="desktop-log-in icon-desk">
+                        <a href="log-in.html">
+                            <div class="log-in-icon">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <p>Log in</p>
+                        </a>
+                    </div>
+                    <div class="desktop-favourites icon-desk">
+                        <a href="favourites.html">
+                            <div class="log-in-icon">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <p>Favourites</p>
+                        </a>
+                    </div>
+                    <div class="desktop-cart icon-desk">
+                        <a href="my-cart.html">
+                            <div class="log-in-icon">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                            <p>My cart</p>
                         </a>
                     </div>
                 </div>
-
-                <div class="right-header-desktop">
-                    <div class="search-bar">
-                        <input type="text" placeholder="Search for game ">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </div>
-                    <div class="desktop-icons">
-                        <div class="desktop-log-in icon-desk">
-                            <a href="log-in.html">
-                                <div class="log-in-icon">
-                                    <i class="fa-solid fa-user"></i>
-                                </div>
-                                <p>Log in</p>
-                            </a>
-                        </div>
-                        <div class="desktop-favourites icon-desk">
-                            <a href="favourites.html">
-                                <div class="log-in-icon">
-                                    <i class="fa-solid fa-heart"></i>
-                                </div>
-                                <p>Favourites</p>
-                            </a>
-                        </div>
-                        <div class="desktop-cart icon-desk">
-                            <a href="my-cart.html">
-                                <div class="log-in-icon">
-                                    <i class="fa-solid fa-cart-shopping"></i>
-                                </div>
-                                <p>My cart</p>
-                            </a>
-                        </div>
-                    </div>
+            </div>
+            <div class="right-header-mobile">
+                <div class="dropdown">
+                <a href="#" class="hamburger-menu dropbtn"><i class="fa-solid fa-bars"></i></a>
+                <div class="dropdown-content">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="latest-releases.html">Latest releases</a></li>
+                        <li><a href="sale.html">SALE</a></li>
+                        <li><a href="pre-loved-games.html">Pre-loved games</a></li>
+                        <li><a href="sell-your-games.html">Sell your games</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="favourites.html">Favourites</a></li>
+                        <li><a href="log-in.html">Log in</a></li>
+                        <li><a href="#">Search</a></li>
+                    </ul>
                 </div>
-
-                <div class="right-header-mobile">
-                    <div class="dropdown">
-                    <a href="#" class="hamburger-menu dropbtn"><i class="fa-solid fa-bars"></i></a>
-                    <div class="dropdown-content">
+                </div>
+                <a href="my-cart.html" class="nav-cart"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="dark-header-line">
+        <div class="header-menu-dark">
+            <div class="desktop-nav">
+                <nav>
+                    <ul class="desktop-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li>|</li>
+                        <li><a href="latest-releases.html">Latest releases</a></li>
+                        <li>|</li>
+                        <li><a href="sale.html">SALE</a></li>
+                        <li>|</li>
+                        <li><a href="pre-loved-games.html">Pre-loved games</a></li>
+                        <li>|</li>
+                        <li><a href="sell-your-games.html">Sell your games</a></li>
+                        <li>|</li>
+                        <li><a href="about.html">About</a></li>
+                        <li>|</li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- MAIN -->
+<main>
+    <div class="game-section-title">
+        <!-- ABOUT -->
+        <h1>About</h1>
+        <p>Read about us - who work in your favourite gameshop!</p>
+    </div>
+    <div class="sell-your-games-flex-container">
+        <div class="sell-your-games-box">
+            <div class="sell-game">
+                <div class="sell-game-img-content gray-box-img-container">
+                    <img src="assets/pexels-imgs/about-pages/about_desktop_02.png" alt="About" class="desktop-img">
+                    <img src="assets/pexels-imgs/about-pages/about_tablet_02.png" alt="About" class="tablet-img">
+                </div>
+                <div class="sell-game-text-content gray-text-content-box" id="sell-text-box">
+                    <div class="title-in-gray-box-about-pages">About us</div>
+                    <div>Game Hub is a webshop where you can buy the latest releases of games and also sell your old pre-loved games. </div>
+                    <div>Whether you're looking for the hottest new releases or want to declutter your collection, Game Hub has you covered.</div>
+                </div>
+            </div>
+            <!-- mobile img - only visible in mobile version -->
+            <div class="mobile-img-sell-games">
+                <img src="assets/pexels-imgs/about-pages/about_mobile.png" alt="sell your games" class="mobile-img">
+            </div>
+            <!-- end mobile div -->
+            <div class="find-worth">
+                <!-- OUR TEAM -->
+                <div class="sell-game-text-content gray-text-content-box" id="sell-text-box">
+                    <div class="title-in-gray-box-about-pages">Our team</div>
+                    <div>Our team consists of young, affectionate gamers who are passionate about spreading the love of gaming with the world. </div>
+                    <div>We work tirelessly to keep you up to date on what's hot in the gaming world and recommend the best games for you to play.</div>
+                    <div>Whether you're a casual gamer or a hardcore enthusiast, our team is here to ensure you have the ultimate gaming experience.</div>
+                </div>
+                <div class="gray-box-img-container">
+                    <img src="assets/pexels-imgs/about-pages/ourteam_desktop_02.png" alt="game worth" class="game-worth-desktop-img desktop-img">
+                    <img src="assets/pexels-imgs/about-pages/ourteam_tablet_02.png" alt="game worth" class="game-worth-tablet-img tablet-img">
+                </div>
+            </div>
+            <!-- mobile img - only visible in mobile version -->
+            <div class="mobile-img-game-worth">
+                <img src="assets/pexels-imgs/about-pages/ourteam_mobile.png" alt="game worth" class="game-worth-mobile-img mobile-img">
+            </div>
+            <!-- end mobile div -->
+            <div class="ship-game">
+                <!-- OUR BASE -->
+                <div class="gray-box-img-container">
+                    <img src="assets/pexels-imgs/about-pages/map_desktop_02.png" alt="ship your games to us" class="ship-game-desktop-img desktop-img">
+                    <img src="assets/pexels-imgs/about-pages/map_tablet_02.png" alt="ship your games to us" class="ship-game-tablet-img tablet-img">
+                </div>
+                <div class="gray-text-content-box sell-game-text-content">
+                    <div class="title-in-gray-box-about-pages">Our main base</div>
+                    <div>Our main base is in an office. </div>
+                    <div>We know, that means that we do not have an actual store for you to browse in.</div>
+                    <div>However, this does mean that we have an excellent webshop for you - open 24/7!</div>
+                </div>
+            </div>
+            <!-- mobile img - only visible in mobile version -->
+            <div class="mobile-img-ship-game">
+                <img src="assets/pexels-imgs/about-pages/map_mobile.png" alt="ship your games to us" class="ship-game-mobile-img mobile-img">
+            </div>
+            <!-- end mobile div -->
+        </div>
+    </div>
+</main>
+<!-- FOOTER -->
+<footer>
+    <div class="footer-dark-color">
+        <div class="footer-parent">
+            <div class="footer-content">
+                <div class="socials">
+                    <a href="derp.html"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="derp.html"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="derp.html"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-links-one">
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="latest-releases.html">Latest releases</a></li>
-                            <li><a href="sale.html">SALE</a></li>
-                            <li><a href="pre-loved-games.html">Pre-loved games</a></li>
-                            <li><a href="sell-your-games.html">Sell your games</a></li>
-                            <li><a href="about.html">About</a></li>
+                            <li><a href="about.html">About us</a></li>
                             <li><a href="contact.html">Contact</a></li>
-                            <li><a href="favourites.html">Favourites</a></li>
-                            <li><a href="log-in.html">Log in</a></li>
-                            <li><a href="#">Search</a></li>
+                            <li><a href="derp.html">FAQ</a></li>
                         </ul>
                     </div>
-                    </div>
-                    <a href="my-cart.html" class="nav-cart"><i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
-                
-            </div>
-            
-        </div>
-        <div class="dark-header-line">
-            <div class="header-menu-dark">
-                <div class="desktop-nav">
-                    <nav>
-                        <ul class="desktop-links">
-                            <li><a href="index.html">Home</a></li>
-                            <li>|</li>
-                            <li><a href="latest-releases.html">Latest releases</a></li>
-                            <li>|</li>
-                            <li><a href="sale.html">SALE</a></li>
-                            <li>|</li>
-                            <li><a href="pre-loved-games.html">Pre-loved games</a></li>
-                            <li>|</li>
-                            <li><a href="sell-your-games.html">Sell your games</a></li>
-                            <li>|</li>
-                            <li><a href="about.html">About</a></li>
-                            <li>|</li>
-                            <li><a href="contact.html">Contact</a></li>
+                    <div class="footer-links-two">
+                        <ul>
+                            <li><a href="derp.html">Costumer Support</a></li>
+                            <li><a href="derp.html">Costumer Service</a></li>
+                            <li><a href="derp.html">Shipping</a></li>
                         </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-    
-    <!-- MAIN -->
-    <main>
-        <div class="game-section-title">
-            <!-- ABOUT -->
-            <h2>About</h2>
-            <p>Read about us - who work in your favourite gameshop!</p>
-        </div>
-        <div class="sell-your-games-flex-container">
-            <div class="sell-your-games-box">
-                <div class="sell-game">
-                    <div class="sell-game-img-content gray-box-img-container">
-                        <img src="assets/pexels-imgs/about-pages/about_desktop_02.png" alt="About" class="desktop-img">
-                        <img src="assets/pexels-imgs/about-pages/about_tablet_02.png" alt="About" class="tablet-img">
-                    </div>
-                    <div class="sell-game-text-content gray-text-content-box" id="sell-text-box">
-                        <div class="title-in-gray-box-about-pages">About us</div>
-                        <div>Game Hub is a webshop where you can buy the latest releases of games and also sell your old pre-loved games. </div>
-                        <div>Whether you're looking for the hottest new releases or want to declutter your collection, Game Hub has you covered.</div>
                     </div>
                 </div>
-                <!-- mobile img - only visible in mobile version -->
-                <div class="mobile-img-sell-games">
-                    <img src="assets/pexels-imgs/about-pages/about_mobile.png" alt="sell your games" class="mobile-img">
-                </div>
-                <!-- end mobile div -->
-                <div class="find-worth">
-                    <!-- OUR TEAM -->
-                    <div class="sell-game-text-content gray-text-content-box" id="sell-text-box">
-                        <div class="title-in-gray-box-about-pages">Our team</div>
-                        <div>Our team consists of young, affectionate gamers who are passionate about spreading the love of gaming with the world. </div>
-                        <div>We work tirelessly to keep you up to date on what's hot in the gaming world and recommend the best games for you to play.</div>
-                        <div>Whether you're a casual gamer or a hardcore enthusiast, our team is here to ensure you have the ultimate gaming experience.</div>
-                    </div>
-                    <div class="gray-box-img-container">
-                        <img src="assets/pexels-imgs/about-pages/ourteam_desktop_02.png" alt="game worth" class="game-worth-desktop-img desktop-img">
-                        <img src="assets/pexels-imgs/about-pages/ourteam_tablet_02.png" alt="game worth" class="game-worth-tablet-img tablet-img">
-                    </div>
-                </div>
-                <!-- mobile img - only visible in mobile version -->
-                <div class="mobile-img-game-worth">
-                    <img src="assets/pexels-imgs/about-pages/ourteam_mobile.png" alt="game worth" class="game-worth-mobile-img mobile-img">
-                </div>
-                <!-- end mobile div -->
-                <div class="ship-game">
-                    <!-- OUR BASE -->
-                    <div class="gray-box-img-container">
-                        <img src="assets/pexels-imgs/about-pages/map_desktop_02.png" alt="ship your games to us" class="ship-game-desktop-img desktop-img">
-                        <img src="assets/pexels-imgs/about-pages/map_tablet_02.png" alt="ship your games to us" class="ship-game-tablet-img tablet-img">
-                    </div>
-                    <div class="gray-text-content-box sell-game-text-content">
-                        <div class="title-in-gray-box-about-pages">Our main base</div>
-                        <div>Our main base is in an office. </div>
-                        <div>We know, that means that we do not have an actual store for you to browse in.</div>
-                        <div>However, this does mean that we have an excellent webshop for you - open 24/7!</div>
-                    </div>
-                </div>
-                <!-- mobile img - only visible in mobile version -->
-                <div class="mobile-img-ship-game">
-                    <img src="assets/pexels-imgs/about-pages/map_mobile.png" alt="ship your games to us" class="ship-game-mobile-img mobile-img">
-                </div>
-                <!-- end mobile div -->
-            </div>
-        </div>
-
-        
-    </main>
-
-    <!-- FOOTER -->
-    <footer>
-        <div class="footer-dark-color">
-            <div class="footer-parent">
-                <div class="footer-content">
-                    <div class="socials">
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    </div>
-                    <div class="footer-links">
-                        <div class="footer-links-one">
-                            <ul>
-                                <li><a href="about.html">About us</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">FAQ</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer-links-two">
-                            <ul>
-                                <li><a href="#">Costumer Support</a></li>
-                                <li><a href="#">Costumer Service</a></li>
-                                <li><a href="#">Shipping</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="yellow-desktop-footer">
-                        <div class="yellow-svg-and-logo">
-                            <a href="index.html">
-                                <img src="assets/shared/GameHub_Logo.png" alt="Game Hub logo">
-                            </a>
-                        </div>
+                <div class="yellow-desktop-footer">
+                    <div class="yellow-svg-and-logo">
+                        <a href="index.html">
+                            <img src="assets/shared/GameHub_Logo.png" alt="Game Hub logo">
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
 </body>
 </html>

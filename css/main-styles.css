@@ -237,7 +237,7 @@ main {
     gap: 20px;
 }
 
-h2 {
+h1 {
     font-family: 'Orbitron', sans-serif;
     font-size: 36px;
     color: var(--dark);
