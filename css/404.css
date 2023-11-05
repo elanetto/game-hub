@@ -1,0 +1,127 @@
+/* This is for the derp-page */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --dark: #1B213C;
+    --dark-gray: #485668;
+    --gray: #838383;
+    --lightgray: #E2E8F0;
+    --yellow: #FECF2F;
+    --orange: #FD5A27;
+}
+
+.text-desktop {
+    display: none;
+}
+
+.derp-content-box {
+    background-color: var(--lightgray);
+    color: var(--dark);
+    width: 300px;
+}
+
+.img-desktop, .img-tablet {
+    display: none;
+}
+
+.img-mobile {
+    max-width: 300px;
+}
+
+.flex-box-center-derp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.latest-games-text p {
+    inline-size: 150px;
+    overflow-wrap: break-word;
+}
+
+.text-content-derp {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+
+
+}
+
+/* Medium */
+@media (min-width: 768px) {
+
+    .img-mobile {
+        display: none;
+    }
+
+    .img-tablet {
+        display: block;
+        height: 350px;
+
+    }
+
+    .derp-content-box {
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+/* Large */
+@media (min-width: 1024px) {
+
+    .img-tablet {
+        display: none;
+    }
+
+    .img-desktop {
+        display: block;
+        height: 650px;
+    }
+
+    .text-desktop {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 3rem;
+    }
+
+    .extra-derp {
+        margin-top: 4rem;
+    }
+
+    .flex-box-center-derp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .derp-content-box {
+        width: 750px;
+    }
+
+}
+
+
+/*Extra Large XL */
+@media (min-width: 1280px) {
+
+}
+
+/* EXTRA Extra Large - XXL */
+@media (min-width: 1536px) {
+
+}

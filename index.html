@@ -20,115 +20,119 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/product-card-styles.css">
     <link rel="stylesheet" href="css/main-styles.css">
+    <meta name="description" content="GameHub webshop - a student task in FrontEnd, Noroff">
+    <meta name="keywords" content="FrontEnd project with HTML and CSS">
+    <meta name="author" content="Anette Therese Hanssen">
     <title>:: Home || Game Hub ::</title>
 </head>
 <body>
-     <!-- HEADER / NAV -->
-     <header>
-        <div class="desktop-dark-line"></div>
-        <div class="yellow-header">
 
-            <div class="header-menu-yellow">
+<!-- HEADER / NAV -->
+<header>
+    <div class="desktop-dark-line"></div>
+    <div class="yellow-header">
 
-                <div class="left-header">
-                    <div class="header-logo">
-                        <a href="index.html">
-                            <img src="assets/shared/GameHub_Logo.png" alt="Game Hub logo" class="game-hub-logo"/>
+        <div class="header-menu-yellow">
+
+            <div class="left-header">
+                <div class="header-logo">
+                    <a href="index.html">
+                        <img src="assets/shared/GameHub_Logo.png" alt="Game Hub logo" class="game-hub-logo"/>
+                    </a>
+                </div>
+            </div>
+
+            <div class="right-header-desktop">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search for game ">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="desktop-icons">
+                    <div class="desktop-log-in icon-desk">
+                        <a href="log-in.html">
+                            <div class="log-in-icon">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <p>Log in</p>
+                        </a>
+                    </div>
+                    <div class="desktop-favourites icon-desk">
+                        <a href="favourites.html">
+                            <div class="log-in-icon">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <p>Favourites</p>
+                        </a>
+                    </div>
+                    <div class="desktop-cart icon-desk">
+                        <a href="my-cart.html">
+                            <div class="log-in-icon">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                            <p>My cart</p>
                         </a>
                     </div>
                 </div>
+            </div>
 
-                <div class="right-header-desktop">
-                    <div class="search-bar">
-                        <input type="text" placeholder="Search for game ">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </div>
-                    <div class="desktop-icons">
-                        <div class="desktop-log-in icon-desk">
-                            <a href="log-in.html">
-                                <div class="log-in-icon">
-                                    <i class="fa-solid fa-user"></i>
-                                </div>
-                                <p>Log in</p>
-                            </a>
-                        </div>
-                        <div class="desktop-favourites icon-desk">
-                            <a href="favourites.html">
-                                <div class="log-in-icon">
-                                    <i class="fa-solid fa-heart"></i>
-                                </div>
-                                <p>Favourites</p>
-                            </a>
-                        </div>
-                        <div class="desktop-cart icon-desk">
-                            <a href="my-cart.html">
-                                <div class="log-in-icon">
-                                    <i class="fa-solid fa-cart-shopping"></i>
-                                </div>
-                                <p>My cart</p>
-                            </a>
-                        </div>
-                    </div>
+            <div class="right-header-mobile">
+                <div class="dropdown">
+                <a href="#" class="hamburger-menu dropbtn"><i class="fa-solid fa-bars"></i></a>
+                <div class="dropdown-content">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="latest-releases.html">Latest releases</a></li>
+                        <li><a href="sale.html">SALE</a></li>
+                        <li><a href="pre-loved-games.html">Pre-loved games</a></li>
+                        <li><a href="sell-your-games.html">Sell your games</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="favourites.html">Favourites</a></li>
+                        <li><a href="log-in.html">Log in</a></li>
+                        <li><a href="#">Search</a></li>
+                    </ul>
                 </div>
-
-                <div class="right-header-mobile">
-                    <div class="dropdown">
-                    <a href="#" class="hamburger-menu dropbtn"><i class="fa-solid fa-bars"></i></a>
-                    <div class="dropdown-content">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="latest-releases.html">Latest releases</a></li>
-                            <li><a href="sale.html">SALE</a></li>
-                            <li><a href="pre-loved-games.html">Pre-loved games</a></li>
-                            <li><a href="sell-your-games.html">Sell your games</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="favourites.html">Favourites</a></li>
-                            <li><a href="log-in.html">Log in</a></li>
-                            <li><a href="#">Search</a></li>
-                        </ul>
-                    </div>
-                    </div>
-                    <a href="my-cart.html" class="nav-cart"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
-                
+                <a href="my-cart.html" class="nav-cart"><i class="fa-solid fa-cart-shopping"></i></a>
             </div>
             
         </div>
-        <div class="dark-header-line">
-            <div class="header-menu-dark">
-                <div class="desktop-nav">
-                    <nav>
-                        <ul class="desktop-links">
-                            <li><a href="index.html">Home</a></li>
-                            <li>|</li>
-                            <li><a href="latest-releases.html">Latest releases</a></li>
-                            <li>|</li>
-                            <li><a href="sale.html">SALE</a></li>
-                            <li>|</li>
-                            <li><a href="pre-loved-games.html">Pre-loved games</a></li>
-                            <li>|</li>
-                            <li><a href="sell-your-games.html">Sell your games</a></li>
-                            <li>|</li>
-                            <li><a href="about.html">About</a></li>
-                            <li>|</li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
+        
+    </div>
+    <div class="dark-header-line">
+        <div class="header-menu-dark">
+            <div class="desktop-nav">
+                <nav>
+                    <ul class="desktop-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li>|</li>
+                        <li><a href="latest-releases.html">Latest releases</a></li>
+                        <li>|</li>
+                        <li><a href="sale.html">SALE</a></li>
+                        <li>|</li>
+                        <li><a href="pre-loved-games.html">Pre-loved games</a></li>
+                        <li>|</li>
+                        <li><a href="sell-your-games.html">Sell your games</a></li>
+                        <li>|</li>
+                        <li><a href="about.html">About</a></li>
+                        <li>|</li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
-    </header>
-
-    <!-- HERO BANNER -->
-    <div class="hero">
-        <img src="assets/pexels-imgs/hero_banner_mario_1300x304.png" alt="super mario" class="mario-header">
-        <div class="hero-title">The universe of games</div>
     </div>
+</header>
+
+<!-- HERO BANNER -->
+<div class="hero">
+    <img src="assets/pexels-imgs/hero_banner_mario_1300x304.png" alt="super mario" class="mario-header">
+    <div class="hero-title">The universe of games</div>
+</div>
     
-    <!-- MAIN -->
-    <main>
-        <div class="main-content">
+<!-- MAIN -->
+<main>
+    <div class="main-content">
 
         <!-- LATEST GAMES SECTION -->
         <div class="latest-games-text game-section-title">
@@ -170,22 +174,22 @@
             <a href="product-page.html">
                 <div class="product-card">
                     <div class="game-img">
-                        <img src="assets/games/ForgeLegend.jpeg" alt="Forge Legend">
+                        <img src="assets/games/Furious.jpeg" alt="Furious">
                     </div>
                     <div class="game-details">
                         <div class="title-category-old-price-section">
-                            <div class="game-title">Forge Legend</div>
+                            <div class="game-title">Furious</div>
                         <div class="game-category">Latest releases</div>
                         </div>
                         <div class="price-and-btn-latest-release">
-                            <div class="game-prize">$ 59</div>
+                            <div class="game-prize">$ 64</div>
                             <button class="buy-now-btn">Buy now <i class="fa-solid fa-cart-shopping"></i></button>
                         </div>
                     </div>
                     <div class="score">
                         <figure class="ign-score"><img src="assets/shared/ign-score-hexagon.svg" alt="ign score" class="hexagon">
                             <div class="inside-hexagon">
-                                <span class="ign-number">8</span>
+                                <span class="ign-number">9</span>
                                 <img src="assets/shared/ign-logo.png" alt="ign logo" class="ign-logo">
                             </div>
                         </figure>
@@ -198,22 +202,22 @@
             <a href="product-page.html">
                 <div class="product-card">
                     <div class="game-img">
-                        <img src="assets/games/ForgeLegend.jpeg" alt="Forge Legend">
+                        <img src="assets/games/Cyberpunk.jpeg" alt="Cyberpunk">
                     </div>
                     <div class="game-details">
                         <div class="title-category-old-price-section">
-                            <div class="game-title">Forge Legend</div>
+                            <div class="game-title">Cyberpunk</div>
                         <div class="game-category">Latest releases</div>
                         </div>
                         <div class="price-and-btn-latest-release">
-                            <div class="game-prize">$ 59</div>
+                            <div class="game-prize">$ 58</div>
                             <button class="buy-now-btn">Buy now <i class="fa-solid fa-cart-shopping"></i></button>
                         </div>
                     </div>
                     <div class="score">
                         <figure class="ign-score"><img src="assets/shared/ign-score-hexagon.svg" alt="ign score" class="hexagon">
                             <div class="inside-hexagon">
-                                <span class="ign-number">8</span>
+                                <span class="ign-number">7</span>
                                 <img src="assets/shared/ign-logo.png" alt="ign logo" class="ign-logo">
                             </div>
                         </figure>
@@ -226,15 +230,15 @@
             <a href="product-page.html">
                 <div class="product-card">
                     <div class="game-img">
-                        <img src="assets/games/ForgeLegend.jpeg" alt="Forge Legend">
+                        <img src="assets/games/Assassin.jpeg" alt="Assassin">
                     </div>
                     <div class="game-details">
                         <div class="title-category-old-price-section">
-                            <div class="game-title">Forge Legend</div>
+                            <div class="game-title">Assassin</div>
                         <div class="game-category">Latest releases</div>
                         </div>
                         <div class="price-and-btn-latest-release">
-                            <div class="game-prize">$ 59</div>
+                            <div class="game-prize">$ 62</div>
                             <button class="buy-now-btn">Buy now <i class="fa-solid fa-cart-shopping"></i></button>
                         </div>
                     </div>
@@ -250,12 +254,8 @@
                     </div>
                 </div>
             </a>
-            
-           
-
 
             <!-- LATEST RELEASES PRODUCT CARDS END -->
-
         </div>
 
         <!-- MID BANNER -->
@@ -270,8 +270,6 @@
                     </div>
                 </a>
             </div>
-
-
         </div>
 
         <!-- PRE-LOCED GAMES SECTION -->
@@ -316,17 +314,47 @@
             <a href="product-page.html">
                 <div class="product-card">
                     <div class="game-img">
-                        <img src="assets/games/SuperDuper.jpeg" alt="Super Duper">
+                        <img src="assets/games/Racing.jpeg" alt="Racing">
                     </div>
                     <div class="game-category-tag">pre-loved</div>
                     <div class="game-details">
                         <div class="title-category-old-price-section">
-                            <div class="game-title">Super Duper</div>
+                            <div class="game-title">Racing</div>
                         <div class="game-category">Pre-loved and lovable</div>
-                        <div class="old-price">$ 59</div>
+                        <div class="old-price">$ 56</div>
                         </div>
                         <div class="price-and-btn-pre-loved">
-                            <div class="game-sales-prize">$ 34</div>
+                            <div class="game-sales-prize">$ 39</div>
+                            <button class="buy-now-btn">Buy now <i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                    </div>
+                    <div class="score">
+                        <figure class="ign-score"><img src="assets/shared/ign-score-hexagon.svg" alt="ign score" class="hexagon">
+                            <div class="inside-hexagon">
+                                <span class="ign-number">7</span>
+                                <img src="assets/shared/ign-logo.png" alt="ign logo" class="ign-logo">
+                            </div>
+                        </figure>
+                        <span class="heart">
+                            <i class="fa-solid fa-heart"></i></span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="product-page.html">
+                <div class="product-card">
+                    <div class="game-img">
+                        <img src="assets/games/Black.jpeg" alt="Black">
+                    </div>
+                    <div class="game-category-tag">pre-loved</div>
+                    <div class="game-details">
+                        <div class="title-category-old-price-section">
+                            <div class="game-title">Black</div>
+                        <div class="game-category">Pre-loved and lovable</div>
+                        <div class="old-price">$ 64</div>
+                        </div>
+                        <div class="price-and-btn-pre-loved">
+                            <div class="game-sales-prize">$ 37</div>
                             <button class="buy-now-btn">Buy now <i class="fa-solid fa-cart-shopping"></i></button>
                         </div>
                     </div>
@@ -346,54 +374,24 @@
             <a href="product-page.html">
                 <div class="product-card">
                     <div class="game-img">
-                        <img src="assets/games/SuperDuper.jpeg" alt="Super Duper">
+                        <img src="assets/games/Cyberpunk.jpeg" alt="Cyberpunk">
                     </div>
                     <div class="game-category-tag">pre-loved</div>
                     <div class="game-details">
                         <div class="title-category-old-price-section">
-                            <div class="game-title">Super Duper</div>
+                            <div class="game-title">Cyberpunk</div>
                         <div class="game-category">Pre-loved and lovable</div>
-                        <div class="old-price">$ 59</div>
+                        <div class="old-price">$ 58</div>
                         </div>
                         <div class="price-and-btn-pre-loved">
-                            <div class="game-sales-prize">$ 34</div>
+                            <div class="game-sales-prize">$ 29</div>
                             <button class="buy-now-btn">Buy now <i class="fa-solid fa-cart-shopping"></i></button>
                         </div>
                     </div>
                     <div class="score">
                         <figure class="ign-score"><img src="assets/shared/ign-score-hexagon.svg" alt="ign score" class="hexagon">
                             <div class="inside-hexagon">
-                                <span class="ign-number">8</span>
-                                <img src="assets/shared/ign-logo.png" alt="ign logo" class="ign-logo">
-                            </div>
-                        </figure>
-                        <span class="heart">
-                            <i class="fa-solid fa-heart"></i></span>
-                    </div>
-                </div>
-            </a>
-
-            <a href="product-page.html">
-                <div class="product-card">
-                    <div class="game-img">
-                        <img src="assets/games/SuperDuper.jpeg" alt="Super Duper">
-                    </div>
-                    <div class="game-category-tag">pre-loved</div>
-                    <div class="game-details">
-                        <div class="title-category-old-price-section">
-                            <div class="game-title">Super Duper</div>
-                        <div class="game-category">Pre-loved and lovable</div>
-                        <div class="old-price">$ 59</div>
-                        </div>
-                        <div class="price-and-btn-pre-loved">
-                            <div class="game-sales-prize">$ 34</div>
-                            <button class="buy-now-btn">Buy now <i class="fa-solid fa-cart-shopping"></i></button>
-                        </div>
-                    </div>
-                    <div class="score">
-                        <figure class="ign-score"><img src="assets/shared/ign-score-hexagon.svg" alt="ign score" class="hexagon">
-                            <div class="inside-hexagon">
-                                <span class="ign-number">8</span>
+                                <span class="ign-number">7</span>
                                 <img src="assets/shared/ign-logo.png" alt="ign logo" class="ign-logo">
                             </div>
                         </figure>
@@ -405,46 +403,45 @@
 
             <!-- PRE-LOVED PRODUCT CARDS END -->
         </div>
-        </div>
-        
-    </main>
+    </div>
+</main>
 
-    <!-- FOOTER -->
-    <footer>
-        <div class="footer-dark-color">
-            <div class="footer-parent">
-                <div class="footer-content">
-                    <div class="socials">
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+<!-- FOOTER -->
+<footer>
+    <div class="footer-dark-color">
+        <div class="footer-parent">
+            <div class="footer-content">
+                <div class="socials">
+                    <a href="derp.html"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="derp.html"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="derp.html"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-links-one">
+                        <ul>
+                            <li><a href="about.html">About us</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="derp.html">FAQ</a></li>
+                        </ul>
                     </div>
-                    <div class="footer-links">
-                        <div class="footer-links-one">
-                            <ul>
-                                <li><a href="about.html">About us</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">FAQ</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer-links-two">
-                            <ul>
-                                <li><a href="#">Costumer Support</a></li>
-                                <li><a href="#">Costumer Service</a></li>
-                                <li><a href="#">Shipping</a></li>
-                            </ul>
-                        </div>
+                    <div class="footer-links-two">
+                        <ul>
+                            <li><a href="derp.html">Costumer Support</a></li>
+                            <li><a href="derp.html">Costumer Service</a></li>
+                            <li><a href="derp.html">Shipping</a></li>
+                        </ul>
                     </div>
-                    <div class="yellow-desktop-footer">
-                        <div class="yellow-svg-and-logo">
-                            <a href="index.html">
-                                <img src="assets/shared/GameHub_Logo.png" alt="Game Hub logo">
-                            </a>
-                        </div>
+                </div>
+                <div class="yellow-desktop-footer">
+                    <div class="yellow-svg-and-logo">
+                        <a href="index.html">
+                            <img src="assets/shared/GameHub_Logo.png" alt="Game Hub logo">
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
 </body>
 </html>
