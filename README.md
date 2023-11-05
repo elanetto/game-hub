@@ -12,7 +12,7 @@ All other images used in banners, etc, are from PEXELS.
 The AI-tool in Adobe Photoshop has also been used to edit some photos.
 
 ```python
-# Structure
+# Structure:
 
 ## HTML
 The main HTML-files are visible from the get-go.
@@ -30,6 +30,7 @@ Most images have different sizes, for mobile, tablet and desktop.
 
 # How is i built?
 The layout is built with Flexbox, and Grid has not been used at all.
+
 The site is entiarly built on HTML and CSS, and no JavaScript has been used.
 
 
