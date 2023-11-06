@@ -2,7 +2,7 @@
 This is a school project from Noroff, created by a first-year student at FrontEnd Development.
 The main task was to create an online store for (in this case) video games.
 
-You can check out the deployed project [here](https://game-ck23p0uc3-anettes-projects.vercel.app/index.html)
+You can check out the deployed project [here](https://game-hub-lake-one.vercel.app/)
 
 --> All links in the header works, and are linked to their own HTML-sites.
 
