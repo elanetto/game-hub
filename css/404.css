@@ -56,6 +56,37 @@ body {
     display: none;
 }
 
+.search-box-mobile {
+    background-color: var(--lightgray);
+    width: 330px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.search-bar-mobile input {
+    width: 17.5rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 6px;
+}
+
+.search-bar-mobile i {
+    position: relative;
+    top: 0px;
+    left: -30px;
+    color: var(--gray);
+}
+
 /* Small (sm) */
 @media (min-width: 640px) {
 
