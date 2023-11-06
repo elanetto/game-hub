@@ -25,6 +25,11 @@ button {
 
 /* HEADER */
 
+.sale-colour {
+    color: var(--orange);
+    font-weight: 600;
+}
+
 .desktop-dark-line {
     display: none;
 }
