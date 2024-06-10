@@ -15,7 +15,7 @@ The main task was to create an online store for (in this case) video games.
 This was my first big self-made HTML & CSS project
 ```
 ## Tools and technology
-My portfolio is built with HTML and CSS, and it was first designed and planned in Figma.
+This project was built with HTML and CSS, and it was first designed and planned in Figma.
 ![image](https://github.com/elanetto/portfolio/blob/main/assets/images/readme/badges-html-figma-css.png?raw=true)
 
 ## Figma
